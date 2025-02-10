@@ -1,0 +1,19 @@
+# ninja log v5
+0	135	7559287403341715	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/DIO.pbi	c415692f86bf2742
+221	992	7559271020000000	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/main.xcl	c811826621b8a121
+35	1134	7559271020000000	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/SysTick_Timer.xcl	36fe24ef2bb51db
+1139	1259	7559271026720011	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/SysTick_Timer.pbi	fb818cd2a6f5c032
+1	98	7559273282132575	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/main.pbi	94e9219ffd9bbc34
+278	1478	7559271020000000	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/DIO.xcl	7ff31d031b24e0a1
+139	250	7559287404538425	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbd	2e52cc103b77d1a4
+255	1101	7559287412795381	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbw	3d5b041e5ec08966
+1	137	7559297579021515	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/main.pbi	94e9219ffd9bbc34
+32	141	7559297579081790	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/DIO.pbi	c415692f86bf2742
+145	246	7559297580131727	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbd	2e52cc103b77d1a4
+249	1024	7559297587667164	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbw	3d5b041e5ec08966
+0	99	7559300702353540	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/main.pbi	94e9219ffd9bbc34
+102	220	7559300703631167	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbd	2e52cc103b77d1a4
+225	986	7559300711040701	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbw	3d5b041e5ec08966
+0	97	7559303897820703	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/main.pbi	94e9219ffd9bbc34
+100	198	7559303898849892	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbd	2e52cc103b77d1a4
+203	919	7559303905830353	D:/Embedded/Introduction to Embedded course fall 2024/2_Hands-On_Projects/Lab_4/Lab_4/Ex_Timer/Debug/BrowseInfo/Ex_Timer.pbw	3d5b041e5ec08966

@@ -1,0 +1,61 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\DIO.C" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\DIO.C" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\main.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\main.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\SysTick_Timer.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\SysTick_Timer.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\DIO.C
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\main.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\SysTick_Timer.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\Ex_Timer.pbw : MAKEBROWSE D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\Ex_Timer.pbd
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\Ex_Timer.pbd" -output "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\Ex_Timer.pbw"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\Ex_Timer.pbd : PDBLINK D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.pbi |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.pbi $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.pbi
+  flags = -M "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\Ex_Timer.pbd" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\DIO.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\main.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\2_Hands-On_Projects\Lab_4\Lab_4\Ex_Timer\Debug\BrowseInfo\SysTick_Timer.pbi"
+
