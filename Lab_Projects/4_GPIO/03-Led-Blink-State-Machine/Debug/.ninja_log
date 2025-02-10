@@ -1,0 +1,15 @@
+# ninja log v5
+0	87	7517020836924659	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	709f17d4460a223b
+100	156	7517020837654658	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	6902dd0080f9afaf
+1	151	7517022220742471	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	709f17d4460a223b
+163	209	7517022221368315	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	6902dd0080f9afaf
+8	451	7523400396894753	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	c3fb42808abe9ebb
+457	625	7523400398792413	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	3b5eca46c23a0b9d
+2	396	7523400898966604	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	c3fb42808abe9ebb
+401	540	7523400900549953	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	3b5eca46c23a0b9d
+0	361	7524534386092953	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	c3fb42808abe9ebb
+365	472	7524534387229046	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	3b5eca46c23a0b9d
+1	328	7524536348189765	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	c3fb42808abe9ebb
+332	437	7524536349304988	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	3b5eca46c23a0b9d
+1	344	7524536996535089	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Obj/main.o	c3fb42808abe9ebb
+348	458	7524536997710042	D:/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/03-Led-Blink-State-Machine/Debug/Exe/03-Led-Blink-State-Machine.out	3b5eca46c23a0b9d

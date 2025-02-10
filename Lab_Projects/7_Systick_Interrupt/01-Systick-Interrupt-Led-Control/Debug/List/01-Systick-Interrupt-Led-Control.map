@@ -1,0 +1,222 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  04/Dec/2024  20:49:53
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Exe\01-Systick-Interrupt-Led-Control.out
+#    Map file     =
+#        D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\List\01-Systick-Interrupt-Led-Control.map
+#    Command line =
+#        -f "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Exe\01-Systick-Interrupt-Led-Control.out.rsp"
+#        ("D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj\DIO.o"
+#        "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj\LED.o"
+#        "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj\main.o"
+#        "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj\startup_ewarm.o"
+#        "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj\SysTick.o"
+#        --no_out_extension -o "D:\Work\TA Work\03-Fall-24\CSE211 Introduction
+#        to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Exe\01-Systick-Interrupt-Led-Control.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\List\01-Systick-Interrupt-Led-Control.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        C:\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                    0x26c
+  .intvec          const            0x0  0x26c  startup_ewarm.o [1]
+                                - 0x26c  0x26c
+
+"P1":                                    0x348
+  .text            ro code        0x26c  0x17c  DIO.o [1]
+  .text            ro code        0x3e8   0x48  main.o [1]
+  .text            ro code        0x430   0x2c  LED.o [1]
+  .text            ro code        0x45c   0x40  SysTick.o [1]
+  .text            ro code        0x49c   0x38  zero_init3.o [4]
+  .text            ro code        0x4d4   0x28  data_init.o [4]
+  .text            ro code        0x4fc   0x22  fpinit_M.o [3]
+  .iar.init_table  const          0x520   0x10  - Linker created -
+  .text            ro code        0x530   0x1e  startup_ewarm.o [1]
+  .text            ro code        0x550   0x1c  cstartup_M.o [4]
+  .text            ro code        0x56c   0x1e  cmain.o [4]
+  .text            ro code        0x58a    0x4  low_level_init.o [2]
+  .text            ro code        0x58e    0x4  exit.o [2]
+  .text            ro code        0x594    0xa  cexit.o [4]
+  .text            ro code        0x5a0   0x14  exit.o [5]
+  .rodata          const          0x5b4    0x0  zero_init3.o [4]
+                                - 0x5b4  0x348
+
+"P2", part 1 of 2:                         0x4
+  .bss             zero     0x2000'0000    0x4  SysTick.o [1]
+                          - 0x2000'0004    0x4
+
+"P2", part 2 of 2:                       0x200
+  .noinit          uninit   0x2000'0004  0x200  startup_ewarm.o [1]
+                          - 0x2000'0204  0x200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x5b4     0x3'ffff  0x3'fa4c
+  0x2000'0204  0x2000'7fff    0x7dfc
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\Work\TA Work\03-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj: [1]
+    DIO.o                 380
+    LED.o                  44
+    SysTick.o              64                 4
+    main.o                 72
+    startup_ewarm.o        30      620      512
+    -------------------------------------------
+    Total:                590      620      516
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                164
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6        2
+    Linker created                  16
+-----------------------------------------------
+    Grand Total:          822      638      516
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0x520          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x530          --   Gb  - Linker created -
+?main                         0x56d         Code  Gb  cmain.o [4]
+Ahmed_Handler                 0x479   0x12  Code  Gb  SysTick.o [1]
+FaultISR                      0x54b    0x2  Code  Lc  startup_ewarm.o [1]
+Hesham_Callback               0x3e9    0xc  Code  Gb  main.o [1]
+IntDefaultHandler             0x54d    0x2  Code  Lc  startup_ewarm.o [1]
+LED_Init                      0x431    0xe  Code  Gb  LED.o [1]
+LED_Toggle                    0x43f   0x1e  Code  Gb  LED.o [1]
+NmiSR                         0x549    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0x520          --   Gb  - Linker created -
+Region$$Table$$Limit          0x530          --   Gb  - Linker created -
+ResetISR                      0x531   0x14  Code  Gb  startup_ewarm.o [1]
+SysTick_Callback        0x2000'0000    0x4  Data  Lc  SysTick.o [1]
+SysTick_InitInterrupt         0x45d   0x1c  Code  Gb  SysTick.o [1]
+__cmain                       0x56d         Code  Gb  cmain.o [4]
+__exit                        0x5a1   0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x4d5   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x4fd         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x551         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3              0x49d   0x38  Code  Gb  zero_init3.o [4]
+__low_level_init              0x58b    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main                    0x579         Code  Gb  cmain.o [4]
+_exit                         0x595         Code  Gb  cexit.o [4]
+dio_init                      0x26d   0xd8  Code  Gb  DIO.o [1]
+dio_readport                  0x345   0x42  Code  Gb  DIO.o [1]
+dio_writeport                 0x387   0x40  Code  Gb  DIO.o [1]
+exit                          0x58f    0x4  Code  Gb  exit.o [2]
+main                          0x3f5   0x2e  Code  Gb  main.o [1]
+pui32Stack              0x2000'0004  0x200  Data  Lc  startup_ewarm.o [1]
+
+
+[1] = D:\Work\TA Work\03-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\7_Systick_Interrupt\01-Systick-Interrupt-Led-Control\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  822 bytes of readonly  code memory
+  638 bytes of readonly  data memory
+  516 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

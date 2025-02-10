@@ -1,0 +1,10 @@
+# ninja log v5
+6	100	7495129908095526	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Obj/startup_ewarm.o	5e107c1d11590df3
+0	139	7495129908495533	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Obj/main.o	129bc80f0208364
+151	207	7495129909225515	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Exe/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.out	c804a2260aa18e9b
+0	97	7543321181780569	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Obj/startup_ewarm.o	bb27a2fe4dffa611
+30	151	7543321182308450	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Obj/main.o	da18a73cd2a07c8e
+158	217	7543321183050975	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Exe/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.out	e3aa9ce0fc2c6188
+1	74	7543321400879235	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Obj/startup_ewarm.o	bb27a2fe4dffa611
+19	123	7543321401347744	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Obj/main.o	da18a73cd2a07c8e
+130	195	7543321402112514	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/Exe/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.out	e3aa9ce0fc2c6188

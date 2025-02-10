@@ -1,0 +1,30 @@
+[
+  {
+    "ID": "c:@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "5",
+      "line": "1",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson7 - lec4 - Step3 - Arrays - Pointers\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "2",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson7 - lec4 - Step3 - Arrays - Pointers\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

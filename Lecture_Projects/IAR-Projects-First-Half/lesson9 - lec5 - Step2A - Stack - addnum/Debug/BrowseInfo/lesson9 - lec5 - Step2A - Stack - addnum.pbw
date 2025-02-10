@@ -1,0 +1,128 @@
+[
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\delay.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:delay.c@50@F@delay@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "18",
+      "line": "4",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\delay.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:delay.h@29@macro@__DELAY_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DELAY_H__",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\delay.h"
+    },
+    "name": "__DELAY_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "4",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\delay.h"
+    },
+    "name": "delay",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@addnum",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void addnum(unsigned int, unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\main.c"
+    },
+    "name": "addnum",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "4",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@57@F@main@x1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x1",
+    "location": {
+      "column": "12",
+      "line": "5",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\main.c"
+    },
+    "name": "x1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@75@F@main@x2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x2",
+    "location": {
+      "column": "12",
+      "line": "6",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\main.c"
+    },
+    "name": "x2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@addnum",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void addnum(unsigned int, unsigned int)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\lesson9 - lec5 - Step2A - Stack - addnum\\main.c"
+    },
+    "name": "addnum",
+    "origin": "project_file",
+    "scope": null
+  }
+]

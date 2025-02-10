@@ -1,0 +1,213 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  26/Nov/2024  15:46:55
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 -
+#        Timer0A - EdgeTime - Registers\Debug\Exe\lec_10 - Step2 - Timer0A -
+#        EdgeTime - Registers.out
+#    Map file     =
+#        C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 -
+#        Timer0A - EdgeTime - Registers\Debug\List\lec_10 - Step2 - Timer0A -
+#        EdgeTime - Registers.map
+#    Command line =
+#        -f "C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 -
+#        Timer0A - EdgeTime - Registers\Debug\Exe\lec_10 - Step2 - Timer0A -
+#        EdgeTime - Registers.out.rsp"
+#        ("C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 -
+#        Timer0A - EdgeTime - Registers\Debug\Obj\main.o" --no_out_extension -o
+#        "C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 -
+#        Timer0A - EdgeTime - Registers\Debug\Exe\lec_10 - Step2 - Timer0A -
+#        EdgeTime - Registers.out" --redirect _Printf=_PrintfFullNoMb
+#        --redirect _Scanf=_ScanfFullNoMb --map
+#        "C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 -
+#        Timer0A - EdgeTime - Registers\Debug\List\lec_10 - Step2 - Timer0A -
+#        EdgeTime - Registers.map" --config "C:\Program Files\IAR
+#        Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code          0x0    0x40  vector_table_M.o [4]
+                                 - 0x40    0x40
+
+"P1":                                     0x228
+  .text            ro code         0x40   0x12c  main.o [1]
+  .text            ro code        0x16c    0x38  zero_init3.o [4]
+  .text            ro code        0x1a4    0x28  data_init.o [4]
+  .text            ro code        0x1cc    0x22  fpinit_M.o [3]
+  .iar.init_table  const          0x1f0    0x10  - Linker created -
+  .text            ro code        0x200     0x2  vectortrap_M.o [4]
+  .text            ro code        0x204    0x1e  cmain.o [4]
+  .text            ro code        0x222     0x4  low_level_init.o [2]
+  .text            ro code        0x226     0x4  exit.o [2]
+  .text            ro code        0x22c     0xa  cexit.o [4]
+  .text            ro code        0x238    0x14  exit.o [5]
+  .text            ro code        0x24c    0x1c  cstartup_M.o [4]
+  .rodata          const          0x268     0x0  zero_init3.o [4]
+                                - 0x268   0x228
+
+"P2", part 1 of 2:                          0x4
+  .bss             zero     0x2000'0000     0x4  main.o [1]
+                          - 0x2000'0004     0x4
+
+"P2", part 2 of 2:                       0x1000
+  CSTACK                    0x2000'0008  0x1000  <Block>
+    CSTACK         uninit   0x2000'0008  0x1000  <Block tail>
+                          - 0x2000'1008  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x268     0x3'ffff  0x3'fd98
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'1008  0x2000'7fff    0x6ff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 - Timer0A - EdgeTime - Registers\Debug\Obj: [1]
+    main.o                300                 4
+    -------------------------------------------
+    Total:                300                 4
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                230
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    6        2
+    Linker created                  16    4'096
+-----------------------------------------------
+    Grand Total:          598       18    4'100
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base         0x1f0         --   Gb  - Linker created -
+.iar.init_table$$Limit        0x200         --   Gb  - Linker created -
+?main                         0x205        Code  Gb  cmain.o [4]
+BusFault_Handler              0x201        Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1008         --   Gb  - Linker created -
+DebugMon_Handler              0x201        Code  Wk  vectortrap_M.o [4]
+HardFault_Handler             0x201        Code  Wk  vectortrap_M.o [4]
+MemManage_Handler             0x201        Code  Wk  vectortrap_M.o [4]
+NMI_Handler                   0x201        Code  Wk  vectortrap_M.o [4]
+PendSV_Handler                0x201        Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base           0x1f0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x200         --   Gb  - Linker created -
+SVC_Handler                   0x201        Code  Wk  vectortrap_M.o [4]
+SysTick_Handler               0x201        Code  Wk  vectortrap_M.o [4]
+Timer0A_periodCapture          0xe7  0x38  Code  Gb  main.o [1]
+Timer0_Init                    0x53  0x94  Code  Gb  main.o [1]
+UsageFault_Handler            0x201        Code  Wk  vectortrap_M.o [4]
+__cmain                       0x205        Code  Gb  cmain.o [4]
+__exit                        0x239  0x14  Code  Gb  exit.o [5]
+__iar_data_init3              0x1a5  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x1cd        Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x24d        Code  Gb  cstartup_M.o [4]
+__iar_zero_init3              0x16d  0x38  Code  Gb  zero_init3.o [4]
+__low_level_init              0x223   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  vector_table_M.o [4]
+_call_main                    0x211        Code  Gb  cmain.o [4]
+_exit                         0x22d        Code  Gb  cexit.o [4]
+exit                          0x227   0x4  Code  Gb  exit.o [2]
+main                           0x41  0x12  Code  Gb  main.o [1]
+period                  0x2000'0000   0x4  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 10 - Step 2 - Timer0A - EdgeTime - Registers\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    598 bytes of readonly  code memory
+     18 bytes of readonly  data memory
+  4'100 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

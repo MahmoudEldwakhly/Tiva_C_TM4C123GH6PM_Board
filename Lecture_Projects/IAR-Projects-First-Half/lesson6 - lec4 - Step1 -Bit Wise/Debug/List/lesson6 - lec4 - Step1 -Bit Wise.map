@@ -1,0 +1,211 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  27/Sep/2024  23:51:20
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 -
+#        Step1 -Bit Wise\Debug\Exe\lesson6 - lec4 - Step1 -Bit Wise.out
+#    Map file     =
+#        C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 -
+#        Step1 -Bit Wise\Debug\List\lesson6 - lec4 - Step1 -Bit Wise.map
+#    Command line =
+#        -f "C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 -
+#        Step1 -Bit Wise\Debug\Exe\lesson6 - lec4 - Step1 -Bit Wise.out.rsp"
+#        ("C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 -
+#        Step1 -Bit Wise\Debug\Obj\main.o" --no_out_extension -o
+#        "C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 -
+#        Step1 -Bit Wise\Debug\Exe\lesson6 - lec4 - Step1 -Bit Wise.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4
+#        - Step1 -Bit Wise\Debug\List\lesson6 - lec4 - Step1 -Bit Wise.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code          0x0    0x40  vector_table_M.o [4]
+                                   - 0x40    0x40
+
+"P1":                                       0x178
+  .text              ro code         0x40    0x84  main.o [1]
+  .text              ro code         0xc4    0x2a  copy_init3.o [4]
+  .text              ro code         0xee     0x2  vectortrap_M.o [4]
+  .text              ro code         0xf0    0x28  data_init.o [4]
+  .text              ro code        0x118    0x22  fpinit_M.o [3]
+  .iar.init_table    const          0x13c    0x14  - Linker created -
+  .text              ro code        0x150    0x1e  cmain.o [4]
+  .text              ro code        0x16e     0x4  low_level_init.o [2]
+  .text              ro code        0x172     0x4  exit.o [2]
+  .text              ro code        0x178     0xa  cexit.o [4]
+  .text              ro code        0x184    0x14  exit.o [5]
+  .text              ro code        0x198    0x1c  cstartup_M.o [4]
+  Initializer bytes  const          0x1b4     0x4  <for P2-1>
+  .rodata            const          0x1b8     0x0  copy_init3.o [4]
+                                  - 0x1b8   0x178
+
+"P2", part 1 of 2:                            0x4
+  P2-1                        0x2000'0000     0x4  <Init block>
+    .data            inited   0x2000'0000     0x4  main.o [1]
+                            - 0x2000'0004     0x4
+
+"P2", part 2 of 2:                         0x1000
+  CSTACK                      0x2000'0008  0x1000  <Block>
+    CSTACK           uninit   0x2000'0008  0x1000  <Block tail>
+                            - 0x2000'1008  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x1b8     0x3'ffff  0x3'fe48
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'1008  0x2000'7fff    0x6ff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+                0x1b4   0x4
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 - Step1 -Bit Wise\Debug\Obj: [1]
+    main.o                132        4        4
+    -------------------------------------------
+    Total:                132        4        4
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    copy_init3.o           42
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    -------------------------------------------
+    Total:                216
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    4        2
+    Linker created                  20    4'096
+-----------------------------------------------
+    Grand Total:          414       26    4'100
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base         0x13c         --   Gb  - Linker created -
+.iar.init_table$$Limit        0x150         --   Gb  - Linker created -
+?main                         0x151        Code  Gb  cmain.o [4]
+BusFault_Handler               0xef        Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1008         --   Gb  - Linker created -
+DebugMon_Handler               0xef        Code  Wk  vectortrap_M.o [4]
+HardFault_Handler              0xef        Code  Wk  vectortrap_M.o [4]
+MemManage_Handler              0xef        Code  Wk  vectortrap_M.o [4]
+NMI_Handler                    0xef        Code  Wk  vectortrap_M.o [4]
+PendSV_Handler                 0xef        Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base           0x13c         --   Gb  - Linker created -
+Region$$Table$$Limit          0x150         --   Gb  - Linker created -
+SVC_Handler                    0xef        Code  Wk  vectortrap_M.o [4]
+SysTick_Handler                0xef        Code  Wk  vectortrap_M.o [4]
+UsageFault_Handler             0xef        Code  Wk  vectortrap_M.o [4]
+__cmain                       0x151        Code  Gb  cmain.o [4]
+__exit                        0x185  0x14  Code  Gb  exit.o [5]
+__iar_copy_init3               0xc5  0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3               0xf1  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                0x119        Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x199        Code  Gb  cstartup_M.o [4]
+__low_level_init              0x16f   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  vector_table_M.o [4]
+_call_main                    0x15d        Code  Gb  cmain.o [4]
+_exit                         0x179        Code  Gb  cexit.o [4]
+exit                          0x173   0x4  Code  Gb  exit.o [2]
+g                       0x2000'0000   0x4  Data  Gb  main.o [1]
+main                           0x41  0x84  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\ahmed\OneDrive\Desktop\Embedded\Updated\lesson6 - lec4 - Step1 -Bit Wise\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    414 bytes of readonly  code memory
+     26 bytes of readonly  data memory
+  4'100 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

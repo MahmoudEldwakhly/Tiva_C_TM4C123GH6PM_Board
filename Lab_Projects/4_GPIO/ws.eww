@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\01-Led-Blink\01-Led-Blink.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\02-Led-Blink-Switch\02-Led-Blink-Switch.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\03-Led-Blink-State-Machine\03-Led-Blink-State-Machine.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\04-GPIO-Drivers\04-GPIO-Drivers.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

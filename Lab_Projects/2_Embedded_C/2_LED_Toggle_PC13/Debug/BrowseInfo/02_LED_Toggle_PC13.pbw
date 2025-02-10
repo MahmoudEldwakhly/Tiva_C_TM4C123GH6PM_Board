@@ -1,0 +1,580 @@
+[
+  {
+    "ID": "c:main.c@60@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@91@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@123@macro@RCC_APB2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "RCC_APB2ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@177@macro@GPIOA_CRH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_CRH",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "GPIOA_CRH",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@231@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@R_ODR_t",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@R_ODR_t@FI@All_Fields",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "All_Fields",
+        "location": {
+          "column": "13",
+          "line": "12",
+          "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+        },
+        "name": "All_Fields",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_11_9"
+      },
+      {
+        "ID": "c:@UA@R_ODR_t@S@main.c@337",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "13",
+          "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+        },
+        "members": [
+          {
+            "ID": "c:@UA@R_ODR_t@S@main.c@337@FI@reserved",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "reserved",
+            "location": {
+              "column": "15",
+              "line": "14",
+              "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+            },
+            "name": "reserved",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_11_9::_anonymous_main_c_13_3"
+          },
+          {
+            "ID": "c:@UA@R_ODR_t@S@main.c@337@FI@p_13",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "p_13",
+            "location": {
+              "column": "15",
+              "line": "15",
+              "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+            },
+            "name": "p_13",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_11_9::_anonymous_main_c_13_3"
+          },
+          {
+            "ID": "c:@UA@R_ODR_t@FI@pin",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "pin",
+            "location": {
+              "column": "4",
+              "line": "16",
+              "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+            },
+            "name": "pin",
+            "origin": "project_file",
+            "scope": "_anonymous_main_c_11_9::_anonymous_main_c_13_3"
+          }
+        ],
+        "name": "",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_11_9"
+      },
+      {
+        "ID": "c:@T@R_ODR_t",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "union R_ODR_t",
+        "location": {
+          "column": "2",
+          "line": "17",
+          "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+        },
+        "name": "R_ODR_t",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_11_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@R_ODR",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "R_ODR",
+    "location": {
+      "column": "19",
+      "line": "19",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "R_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@497@macro@RCC_IOPAEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_IOPAEN",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "RCC_IOPAEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@525@macro@GPIOA_PIN13",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_PIN13",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "GPIOA_PIN13",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "24",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@729@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "33",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@801@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "13",
+      "line": "36",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@124@macro@PLATFORM_TYPES_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PLATFORM_TYPES_H_",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "PLATFORM_TYPES_H_",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@boolean",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "26",
+      "line": "16",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "boolean",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@char_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "char",
+    "location": {
+      "column": "26",
+      "line": "19",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "char_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "signed char",
+    "location": {
+      "column": "28",
+      "line": "22",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "sint8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "short",
+    "location": {
+      "column": "28",
+      "line": "23",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "sint16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int",
+    "location": {
+      "column": "28",
+      "line": "24",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "sint32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@sint64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long long",
+    "location": {
+      "column": "28",
+      "line": "25",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "sint64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "28",
+      "line": "28",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "uint8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned short",
+    "location": {
+      "column": "28",
+      "line": "29",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "uint16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "28",
+      "line": "30",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "uint32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@uint64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long long",
+    "location": {
+      "column": "28",
+      "line": "31",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "uint64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vsint8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile signed char",
+    "location": {
+      "column": "37",
+      "line": "34",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vsint8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vsint16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile short",
+    "location": {
+      "column": "37",
+      "line": "35",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vsint16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vsint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile int",
+    "location": {
+      "column": "37",
+      "line": "36",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vsint32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vsint64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile long long",
+    "location": {
+      "column": "37",
+      "line": "37",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vsint64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vuint8_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile unsigned char",
+    "location": {
+      "column": "37",
+      "line": "40",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vuint8_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vuint16_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile unsigned short",
+    "location": {
+      "column": "37",
+      "line": "41",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vuint16_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vuint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile unsigned int",
+    "location": {
+      "column": "37",
+      "line": "42",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vuint32_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@vuint64_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile unsigned long long",
+    "location": {
+      "column": "37",
+      "line": "43",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "vuint64_t",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@float32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "float",
+    "location": {
+      "column": "16",
+      "line": "46",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "float32",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@T@float64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "double",
+    "location": {
+      "column": "16",
+      "line": "47",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "float64",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1684@macro@TRUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRUE",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "TRUE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Platform_Types.h@1740@macro@FALSE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FALSE",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\2_LED_Toggle_PC13\\Platform_Types.h"
+    },
+    "name": "FALSE",
+    "origin": "user_include",
+    "scope": null
+  }
+]

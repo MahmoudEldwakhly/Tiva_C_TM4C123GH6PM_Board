@@ -1,0 +1,27 @@
+03:11:52 **** Rebuild of configuration Debug for project 11_P2F ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 11_P2F.exe main.o 
+Info: Nothing to build for 11_P2F
+Info: Nothing to build for 11_P2F
+Info: Nothing to build for 11_P2F
+Info: Nothing to build for 4_String_Termination
+Info: Nothing to build for 4_String_Termination
+14:28:48 **** Build of configuration Debug for project 9_Macros ****
+make all 
+make: Nothing to be done for `all'.
+Info: Nothing to build for 4_String_Termination
+13:57:50 **** Rebuild of configuration Debug for project 6_Value_Reference ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 6_Value_Reference.exe main.o 
+15:33:43 **** Build of configuration Debug for project 9_Macros ****
+make all 
+make: Nothing to be done for `all'.
+15:36:05 **** Rebuild of configuration Debug for project 10__VA_ARGS__ ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o 10__VA_ARGS__.exe main.o 

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Lesson1\Lesson1.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson2 - Float\Lesson2 - Float.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson2 - Lec2 - Step1 - Local\Lesson2 - Lec2 - Step1 - Local.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson2 - Lec2 - Step1 - Local - Copy\Lesson2 - Lec2 - Step1 - Local - Copy.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson2 - Lec2 - Step1 - ST\Lesson2 - Lec2 - Step1 - ST.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 - Lec2 - Step2 - Global\Lesson3 - Lec2 - Step2 - Global.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 - Lec2 - Step3 - Pointers\Lesson3 - Lec2 - Step3 - Pointers.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 - Lec3 - Step1 - Blink - Debugging\Lesson3 - Lec3 - Step1 - Blink - Debugging.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 - Lec3 - Step2 - Timing Issue\Lesson3 - Lec3 - Step2 - Timing Issue.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 - Lec3 - Step3 - Delay - Loop\Lesson3 - Lec3 - Step3 - Delay - Loop.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 - Lec3 - Switch - Led\Lesson3 - Lec3 - Switch - Led.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 _ F22\Lesson3 _ F22.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson3 _ F23\Lesson3 _ F23.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson4\Lesson4.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson4 - lec3 - Step1 - Define - Macro\lesson4 - lec3 - Step1 - Define - Macro.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson4 - lec3 - Step2 - More - Macros\lesson4 - lec3 - Step2 - More - Macros.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson4 - lec3 - Step3 - Header - Inclusion\lesson4 - lec3 - Step3 - Header - Inclusion.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson4 - lec3 - Step4 - Compiler - Optimization\lesson4 - lec3 - Step4 - Compiler - Optimization.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson5\lesson5.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson6\lesson6.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson6 - lec4 - Step1 -Bit Wise\lesson6 - lec4 - Step1 -Bit Wise.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson6 - lec4 - Step2 - LEDS\lesson6 - lec4 - Step2 - LEDS.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Lesson7\lesson7.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step3 - Arrays - Pointers\lesson7 - lec4 - Step3 - Arrays - Pointers.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step4 - Bit Banding\lesson7 - lec4 - Step4 - Bit Banding.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step4A - Bit Banding Arrays\lesson7 - lec4 - Step4A - Bit Banding Arrays.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step4X - Arrays\lesson7 - lec4 - Step4X - Arrays.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step5 - Arrays - Pointers\lesson7 - lec4 - Step5 - Arrays - Pointers.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step6 - Pointer - Arithmatic\lesson7 - lec4 - Step6 - Pointer - Arithmatic.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson7 - lec4 - Step8 - AHB\lesson7 - lec4 - Step8 - AHB.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson8\lesson8.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson8 - lec5 - Step8 - Function - BL - argument\lesson8 - lec5 - Step8 - Function - BL - argument.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9\lesson9.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step1 - Stack - PUSH - POP\lesson9 - lec5 - Step1 - Stack - PUSH - POP.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step1A - Stack - add2R\lesson9 - lec5 - Step1A - Stack - add2R.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step1A - Stack - add-R-STACK\lesson9 - lec5 - Step1A - Stack - add_R_STACK.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step2A - Stack - addnum\lesson9 - lec5 - Step2A - Stack - addnum.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step3 - Stack - addnum - add2num\lesson9 - lec5 - Step3 - Stack - addnum - add2num.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step3X - Stack - PUSH - POP\lesson9 - lec5 - Step3X - Stack - PUSH - POP.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step4  - Stack - add3num\lesson9 - lec5 - Step4  - Stack - add3num.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step5 - Stack - PUSH - POP_HW_error\lesson9 - lec5 - Step5 - Stack - PUSH - POP_HW_error.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step6 - Recurssion - Stack - PUSH - POP\lesson9 - lec5 - Step6 - Recurssion - Stack - PUSH - POP.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson9 - lec5 - Step7 - Module\lesson9 - lec5 - Step7 - Module.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson10\lesson_10.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson10 - lec6 - Step4 - Stack - Grows - two - functions\lesson_10 - lec6 - Step4 - Stack - Grows - two - functions.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson10 - lec6 - Step5 - Stack - Overflow\lesson_10 - lec6 - Step5 - Stack - Overflow.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson10 - lec6 - Step6 - Stack size\lesson_10 - lec6 - Step6 - Stack size.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson10 - lec7 - Step1 - Data Allignment\lesson_10 - lec7 - Step1 - Data Allignment.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson11 - lec7 - Step2 - LDRB - LDRH\lesson_11 - lec7 - Step2 - LDRB - LDRH.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson11 - lec7 - Step3 - Static\lesson_11 - lec7 - Step3 - Static.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson12\lesson_12.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson13\lesson_13.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson16\lesson_16.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson17\lesson_17.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lesson18\lesson_18.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

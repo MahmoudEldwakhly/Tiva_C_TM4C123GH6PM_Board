@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\lec 8 - Step 1 - systick - Blinky - Registers\lec8 - Step1 - systick - Blinky - Registers.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 8 - Step 2 - systick - Blinky - TivaWare\lec8 - Step2 - systick - Blinky - TivaWare.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 8 - Step 2 - systick - Blinky - TivaWare - Interrupt\lec8 - Step2 - systick - Blinky - TivaWare - Interrupt.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 - Step 1 - Timer0A - Blinky - Registers - Down\lec9 - Step1 - Timer0A - Blinky - Registers - Down.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 - Step 2 - Timer0A - Blinky - Registers - Up\lec9 - Step2 - Timer0A - Blinky - Registers - Up.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 - Step 3 - Timer0A - Blinky - Registers -Down - prescaler\lec9 - Step3 - Timer0A - Blinky - Registers - Down - prescaler.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 - Step 4 - Timer0A - Blinky - Registers - Up - prescaler\lec9 - Step4 - Timer0A - Blinky - Registers - Up - prescaler.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 _ F22 - Q4\lec9 _ F22 - Q4.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 _ F23 - Q5\lec9 _ F23 - Q5.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 _ systick_interrupt\lec9 _ systick_interrupt.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 9 _ Timer0_interrupt\lec9 _ Timer0_interrupt.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 10 - Step 1 - Timer0A - Blinky - Registers - MATCH\lec_10 - Step1 - Timer0A - Blinky - Registers - MATCH.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 10 - Step 2 - Timer0A - EdgeTime - Registers\lec_10 - Step2 - Timer0A - EdgeTime - Registers.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 10 - Step 3 - Timer0A - EdgeCount - Registers\lec_10 - Step3 - Timer0A - EdgeCount - Registers.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 11 - Step 2 - Timer0A - Blinky - Regs - Down - int\lec_11 - Step 2 - Timer0A - Blinky - Regs - Down - int.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 11 - Step 2 - Timer0A - interrupt\lec_11 - Step2 - Timer0A - interrupt.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 12 - Step 1 - SysTick\lec_12 - Step1 - SysTick.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities\lec_12 - Step1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021\lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 12 - Step 2 - SysTick - Timer0A - Blinky - Registers - interrupt - preemption\lec_12 - Step2 - SysTick - Timer0A - Blinky - Registers - interrupt - preemption.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed\lec_12 - Step3 - SysTick - Timer0A - interrupt - preemption_reversed.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\lec 12 _ F22 - Q5\lec_12 _ F22 - Q5.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

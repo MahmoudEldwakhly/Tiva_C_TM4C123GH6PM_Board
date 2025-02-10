@@ -1,0 +1,13 @@
+# ninja log v5
+0	162	7495136047447757	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/startup_ewarm.o	310907cb0f4b2de9
+4	228	7495136048097753	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/main.o	fbcc8618e964ea2b
+238	289	7495136048758117	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Exe/lec_12 _ F22 - Q5.out	88d1e4ee32c5cf05
+26	128	7543318727531988	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/startup_ewarm.o	f57e0f83b19d1850
+0	146	7543318727682032	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/main.o	65bde882e53360d
+156	227	7543318728600444	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Exe/lec_12 _ F22 - Q5.out	4080abf1301e1e1e
+30	186	7543319482793203	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/startup_ewarm.o	f57e0f83b19d1850
+0	207	7543319482963322	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/main.o	65bde882e53360d
+215	292	7543319483908405	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Exe/lec_12 _ F22 - Q5.out	4080abf1301e1e1e
+1	101	7543320431556403	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/startup_ewarm.o	f57e0f83b19d1850
+29	169	7543320432204319	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Obj/main.o	65bde882e53360d
+176	259	7543320433185439	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/Exe/lec_12 _ F22 - Q5.out	4080abf1301e1e1e

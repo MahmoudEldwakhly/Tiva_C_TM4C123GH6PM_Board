@@ -1,0 +1,23 @@
+# ninja log v5
+2	299	7513309330000000	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.xcl	a6baf3a6ff40ce6c
+311	372	7513309337658386	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.pbi	f6f01c8aa56c9f5b
+382	418	7513309338129409	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbd	da43e86338fe06f9
+428	1547	7513309349184199	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbw	e81bd14c6579cc85
+0	64	7513309552071629	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.pbi	f6f01c8aa56c9f5b
+73	83	7513309552281612	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbd	da43e86338fe06f9
+95	349	7513309554305765	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbw	e81bd14c6579cc85
+1	82	7513310260000000	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.xcl	93314ebda769786b
+95	128	7513310261922434	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.pbi	f6f01c8aa56c9f5b
+138	148	7513310262132380	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbd	da43e86338fe06f9
+158	409	7513310264179772	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbw	e81bd14c6579cc85
+0	93	7513318930000000	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.xcl	fa16d1a9fee370e2
+105	214	7513318937833540	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.pbi	f6f01c8aa56c9f5b
+223	235	7513318938073617	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbd	da43e86338fe06f9
+243	497	7513318940054062	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbw	e81bd14c6579cc85
+1	85	7513319390000000	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.xcl	2ddc3048d3e0c16f
+102	241	7513319397128021	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.pbi	f6f01c8aa56c9f5b
+249	259	7513319397323141	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbd	da43e86338fe06f9
+268	530	7513319399180555	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbw	e81bd14c6579cc85
+8	101	7513425248406697	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/main.pbi	f6f01c8aa56c9f5b
+109	122	7513425248627127	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbd	da43e86338fe06f9
+130	390	7513425250603101	E:/Engineer/TA Work/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/3_LED_Toggle_TivaC/Debug/BrowseInfo/03_LED_Toggle_TivaC.pbw	e81bd14c6579cc85

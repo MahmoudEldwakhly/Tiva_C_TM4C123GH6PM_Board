@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\01-UART-Baremetal\01-UART-Baremetal.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\02-UART-Interrupt\02-UART-Interrupt.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

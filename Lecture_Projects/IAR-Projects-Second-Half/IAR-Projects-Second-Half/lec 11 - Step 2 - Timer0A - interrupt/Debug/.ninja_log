@@ -1,0 +1,13 @@
+# ninja log v5
+0	176	7495122357370061	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/startup_ewarm.o	ec1eb69aa355d5fe
+5	228	7495122357880063	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/main.o	ab23bda4e7f58691
+239	293	7495122358580061	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Exe/lec_11 - Step2 - Timer0A - interrupt.out	bfdd12cd53c78cbb
+29	165	7543310538705704	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/startup_ewarm.o	c1a78e51b73e261
+0	202	7543310538916432	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/main.o	3859e2a7946d4ccd
+213	274	7543310539848682	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Exe/lec_11 - Step2 - Timer0A - interrupt.out	2b3b754126a1841a
+1	97	7543317238617472	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/startup_ewarm.o	254247a3fc98ccf9
+28	139	7543317239061660	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/main.o	4fe07412fbd3c901
+146	221	7543317239927543	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Exe/lec_11 - Step2 - Timer0A - interrupt.out	937b7fa700510520
+1	111	7543320305544242	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/startup_ewarm.o	254247a3fc98ccf9
+32	183	7543320306249943	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Obj/main.o	4fe07412fbd3c901
+191	273	7543320307253737	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/Exe/lec_11 - Step2 - Timer0A - interrupt.out	937b7fa700510520

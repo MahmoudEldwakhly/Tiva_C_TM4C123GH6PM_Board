@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armLMIFTDI.dll" 
+
+"C:\Users\ahmed\Desktop\IAR-Projects-Second-Half\lec 8 - Step 2 - systick - Blinky - TivaWare\Debug\Exe\lec8 - Step2 - systick - Blinky - TivaWare.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+--flash_loader="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\flashloader\TexasInstruments\FlashTC4_H6_o.board" 
+
+
+
+

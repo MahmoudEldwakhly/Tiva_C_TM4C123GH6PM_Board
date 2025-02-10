@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\01-Periodic-Timer\01-Periodic-Timer.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\02-One-shot-Timer\02-One-shot-Timer.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

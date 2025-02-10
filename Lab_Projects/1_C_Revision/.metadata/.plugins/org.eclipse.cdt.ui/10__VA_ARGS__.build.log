@@ -1,0 +1,10 @@
+15:36:05 **** Rebuild of configuration Debug for project 10__VA_ARGS__ ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:15:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+gcc -o 10__VA_ARGS__.exe main.o 
+
+15:36:06 Build Finished. 0 errors, 1 warnings. (took 1s.141ms)
+

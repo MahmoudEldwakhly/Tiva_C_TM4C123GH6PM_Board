@@ -1,0 +1,10 @@
+# ninja log v5
+0	97	7550474731784369	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Obj/main.o	39db643986f3c4a7
+21	104	7550474731784369	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Obj/startup_ewarm.o	4ab4f81c78279ae4
+112	189	7550474732708450	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Exe/03-Tivaware-Usage.out	75874cabe21ddb16
+1	79	7550475049094430	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Obj/startup_ewarm.o	19c82dcc8de27107
+20	134	7550475049594107	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Obj/main.o	7e109553affc87d9
+143	226	7550475050592338	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Exe/03-Tivaware-Usage.out	75874cabe21ddb16
+2	87	7550481095856150	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Obj/startup_ewarm.o	19c82dcc8de27107
+21	129	7550481096265765	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Obj/main.o	7e109553affc87d9
+136	200	7550481097008780	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/7_Systick_Interrupt/03-Tivaware-Usage/Debug/Exe/03-Tivaware-Usage.out	75874cabe21ddb16

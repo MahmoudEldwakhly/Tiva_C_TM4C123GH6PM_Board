@@ -1,0 +1,202 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  01/Oct/2024  13:52:16
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3
+#        - Lec2 - Step2 - Global\Debug\Exe\Lesson3 - Lec2 - Step2 - Global.out
+#    Map file     =
+#        C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3
+#        - Lec2 - Step2 - Global\Debug\List\Lesson3 - Lec2 - Step2 - Global.map
+#    Command line =
+#        -f
+#        "C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3
+#        - Lec2 - Step2 - Global\Debug\Exe\Lesson3 - Lec2 - Step2 -
+#        Global.out.rsp"
+#        ("C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3
+#        - Lec2 - Step2 - Global\Debug\Obj\main.o" --no_out_extension -o
+#        "C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3
+#        - Lec2 - Step2 - Global\Debug\Exe\Lesson3 - Lec2 - Step2 - Global.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        "C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3
+#        - Lec2 - Step2 - Global\Debug\List\Lesson3 - Lec2 - Step2 -
+#        Global.map" --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\CONFIG\generic_cortex.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+  Section          Kind         Address   Size  Object
+  -------          ----         -------   ----  ------
+"A0":                                     0x40
+  .intvec          ro code          0x0   0x40  vector_table_M.o [3]
+                                 - 0x40   0x40
+
+"P1":                                     0xf0
+  .text            ro code         0x40   0x38  zero_init3.o [3]
+  .text            ro code         0x78   0x28  data_init.o [3]
+  .iar.init_table  const           0xa0   0x10  - Linker created -
+  .text            ro code         0xb0   0x1e  cmain.o [3]
+  .text            ro code         0xce    0x4  low_level_init.o [2]
+  .text            ro code         0xd2    0x2  vectortrap_M.o [3]
+  .text            ro code         0xd4   0x1c  main.o [1]
+  .text            ro code         0xf0    0x4  exit.o [2]
+  .text            ro code         0xf4    0xa  cexit.o [3]
+  .text            ro code        0x100   0x14  exit.o [4]
+  .text            ro code        0x114   0x1c  cstartup_M.o [3]
+  .rodata          const          0x130    0x0  zero_init3.o [3]
+                                - 0x130   0xf0
+
+"P2", part 1 of 2:                         0x4
+  .bss             zero     0x2000'0000    0x4  main.o [1]
+                          - 0x2000'0004    0x4
+
+"P2", part 2 of 2:                       0x400
+  CSTACK                    0x2000'0008  0x400  <Block>
+    CSTACK         uninit   0x2000'0008  0x400  <Block tail>
+                          - 0x2000'0408  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x130     0x7'ffff  0x7'fed0
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'0408  0x2000'ffff    0xfbf8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3 - Lec2 - Step2 - Global\Debug\Obj: [1]
+    main.o                 28                 4
+    -------------------------------------------
+    Total:                 28                 4
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [3]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    zero_init3.o           56
+    -------------------------------------------
+    Total:                230
+
+shb_l.a: [4]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    2
+    Linker created                  16    1'024
+-----------------------------------------------
+    Grand Total:          288       16    1'028
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base          0xa0         --   Gb  - Linker created -
+.iar.init_table$$Limit         0xb0         --   Gb  - Linker created -
+?main                          0xb1        Code  Gb  cmain.o [3]
+BusFault_Handler               0xd3        Code  Wk  vectortrap_M.o [3]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0408         --   Gb  - Linker created -
+DebugMon_Handler               0xd3        Code  Wk  vectortrap_M.o [3]
+HardFault_Handler              0xd3        Code  Wk  vectortrap_M.o [3]
+MemManage_Handler              0xd3        Code  Wk  vectortrap_M.o [3]
+NMI_Handler                    0xd3        Code  Wk  vectortrap_M.o [3]
+PendSV_Handler                 0xd3        Code  Wk  vectortrap_M.o [3]
+Region$$Table$$Base            0xa0         --   Gb  - Linker created -
+Region$$Table$$Limit           0xb0         --   Gb  - Linker created -
+SVC_Handler                    0xd3        Code  Wk  vectortrap_M.o [3]
+SysTick_Handler                0xd3        Code  Wk  vectortrap_M.o [3]
+UsageFault_Handler             0xd3        Code  Wk  vectortrap_M.o [3]
+__cmain                        0xb1        Code  Gb  cmain.o [3]
+__exit                        0x101  0x14  Code  Gb  exit.o [4]
+__iar_data_init3               0x79  0x28  Code  Gb  data_init.o [3]
+__iar_program_start           0x115        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3               0x41  0x38  Code  Gb  zero_init3.o [3]
+__low_level_init               0xcf   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0        Data  Gb  vector_table_M.o [3]
+_call_main                     0xbd        Code  Gb  cmain.o [3]
+_exit                          0xf5        Code  Gb  cexit.o [3]
+counter1                0x2000'0000   0x4  Data  Gb  main.o [1]
+exit                           0xf1   0x4  Code  Gb  exit.o [2]
+main                           0xd5  0x1c  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\ahmed\OneDrive\Desktop\Embedded\IAR-Projects-First-Half\Lesson3 - Lec2 - Step2 - Global\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    288 bytes of readonly  code memory
+     16 bytes of readonly  data memory
+  1'028 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

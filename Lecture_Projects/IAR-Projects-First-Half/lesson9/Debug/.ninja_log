@@ -1,0 +1,8 @@
+# ninja log v5
+0	208	7492514716398086	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Obj/main.o	c54ada4ef256bd67
+0	62	7492515009197266	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Obj/delay.o	6324e712839057bd
+6	109	7492515009653125	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Obj/main.o	c54ada4ef256bd67
+117	192	7492515010547867	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Exe/lesson9.out	34e48df5bc0817c
+1	71	7492515298010896	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Obj/delay.o	b8b379f1a13c699e
+5	115	7492515298456753	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Obj/main.o	503ec4d566caa230
+123	175	7492515299095622	C:/Users/ahmed/OneDrive/Desktop/Embedded/Updated/lesson9/Debug/Exe/lesson9.out	b1f7e1ce7b324b41

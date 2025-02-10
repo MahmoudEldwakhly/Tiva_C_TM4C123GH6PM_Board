@@ -1,0 +1,16 @@
+# ninja log v5
+0	86	7494832230000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/main.xcl	ed0afebce859a673
+95	121	7494832238185723	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/main.pbi	40106ed5a01c7d3c
+128	136	7494832238345798	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/lesson_16.pbd	a2b338503150d72
+142	338	7494832240235361	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/lesson_16.pbw	450860257b10b8ff
+0	57	7494832929431210	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/main.pbi	40106ed5a01c7d3c
+64	80	7494832929681217	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/lesson_16.pbd	a2b338503150d72
+88	374	7494832932451250	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/lesson_16.pbw	450860257b10b8ff
+1	96	7494833840000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/bsp.xcl	b30a49adfd9e905f
+7	111	7494833840000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/startup_tm4c.xcl	94a24ab9b69f3c28
+11	127	7494833840000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/main.xcl	f65d2f1ae0bd85ac
+108	177	7494833841463574	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/bsp.pbi	1cbeecb654e64ff5
+124	199	7494833841683565	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/startup_tm4c.pbi	bc99aeec450024ae
+140	213	7494833841833527	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/main.pbi	40106ed5a01c7d3c
+220	264	7494833842343529	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/lesson_16.pbd	3eecc401a3dc1138
+274	663	7494833846143528	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/BrowseInfo/lesson_16.pbw	450860257b10b8ff

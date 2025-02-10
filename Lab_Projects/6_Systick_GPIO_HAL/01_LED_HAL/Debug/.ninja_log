@@ -1,0 +1,17 @@
+# ninja log v5
+0	168	7545958636896585	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/LED.o	1893665c27dff457
+51	185	7545958637066601	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/DIO.o	e03f321cb6db52f7
+32	191	7545958637128916	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/SysTick.o	56bfcfffd34bdfad
+39	170	7545960281528108	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/DIO.o	e03f321cb6db52f7
+15	153	7545960483852941	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/LED.o	1893665c27dff457
+33	181	7545960484108116	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/DIO.o	e03f321cb6db52f7
+17	158	7545961441947743	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/main.o	929d1ee3b76f37ac
+40	182	7545961442187765	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/DIO.o	e03f321cb6db52f7
+0	180	7545962293975434	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/LED.o	1893665c27dff457
+16	186	7545962293955454	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/main.o	929d1ee3b76f37ac
+37	193	7545962293965452	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/SysTick.o	56bfcfffd34bdfad
+65	218	7545962294311801	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/DIO.o	e03f321cb6db52f7
+224	367	7545962295912967	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Exe/01_LED_HAL.out	dbacaf05d973b234
+1	163	7545969750508732	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/main.o	929d1ee3b76f37ac
+21	187	7545969750689591	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Obj/LED.o	1893665c27dff457
+193	369	7545969752612066	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/6_Systick_GPIO_HAL/01_LED_HAL/Debug/Exe/01_LED_HAL.out	dbacaf05d973b234

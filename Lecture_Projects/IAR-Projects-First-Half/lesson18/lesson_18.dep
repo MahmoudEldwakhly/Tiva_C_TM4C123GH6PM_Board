@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>716857905</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\lesson17\main.c</file>
+            <file>$PROJ_DIR$\..\lesson17\startup_tm4c.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\..\lesson16\main.c</file>
+            <file>$PROJ_DIR$\bsp.c</file>
+            <file>$PROJ_DIR$\TM4C123GH6PM.h</file>
+            <file>$PROJ_DIR$\..\lesson17\bsp.c</file>
+            <file>$PROJ_DIR$\..\lesson16\bsp.h</file>
+            <file>$PROJ_DIR$\..\lesson16\bsp.c</file>
+            <file>$PROJ_DIR$\startup_tm4c.c</file>
+            <file>$PROJ_DIR$\bsp.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cmSimd.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\bsp.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_tm4c.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\List\lesson_18.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\lesson_18.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 21 28 18 25 20 14 30 23 13 5 10 29 24 33 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\bsp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 21 28 18 20 30 23 13 5 10 29 24 33 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_tm4c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 21 28 18 20 30 23 13 5 29 24 33 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\lesson_18.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 26 12 15 34 11 17 35 19 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 31 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\bsp.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\startup_tm4c.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

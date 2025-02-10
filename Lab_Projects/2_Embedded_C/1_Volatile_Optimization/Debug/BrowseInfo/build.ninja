@@ -1,0 +1,41 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\main.c" -xcl_file "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.xcl" -macro_file "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\main.c" -o "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\Obj\\" --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Oh --predef_macros "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.tmp"
+  rspfile_name = E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.xcl.rsp
+
+build E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.pbi : INDEXER E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.xcl |  $
+E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\main.c
+  flags = "-out=E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.pbi" -f "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.xcl"
+
+build E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\01_Volatile_Optimization.pbw : MAKEBROWSE E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\01_Volatile_Optimization.pbd
+  flags = "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\01_Volatile_Optimization.pbd" -output "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\01_Volatile_Optimization.pbw"
+
+build E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\01_Volatile_Optimization.pbd : PDBLINK E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.pbi
+  flags = -M "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\01_Volatile_Optimization.pbd" "E$:\Ahmed\Teaching\04-Fall-24\CSE211$ Introduction$ to$ Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\1_Volatile_Optimization\Debug\BrowseInfo\main.pbi"
+

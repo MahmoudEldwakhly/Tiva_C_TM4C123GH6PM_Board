@@ -1,0 +1,25 @@
+# ninja log v5
+0	67	7535944586871379	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/DIO.pbi	20b432e40203f3a2
+1	91	7535914510000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/DIO.xcl	6eaaf6f673cba0
+0	113	7535948136517772	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/main.pbi	17fe5e9f7a8df864
+10	78	7535914510000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/main.xcl	1a3539ea2246541f
+52	698	7535948194285886	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762
+0	46	7535948187976362	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+1	92	7535950417166359	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/DIO.pbi	20b432e40203f3a2
+96	150	7535950417760675	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+156	915	7535950425214747	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762
+0	82	7535950880326562	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/main.pbi	17fe5e9f7a8df864
+86	142	7535950880927688	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+148	853	7535950887809245	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762
+0	67	7535951090471030	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/main.pbi	17fe5e9f7a8df864
+71	117	7535951091011527	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+122	714	7535951096742427	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762
+0	88	7535951804842011	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/main.pbi	17fe5e9f7a8df864
+93	154	7535951805507348	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+159	899	7535951812504733	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762
+0	69	7535952167072838	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/DIO.pbi	20b432e40203f3a2
+73	122	7535952167605546	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+128	776	7535952173906677	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762
+0	78	7535952225503477	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/DIO.pbi	20b432e40203f3a2
+82	126	7535952225989809	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbd	cf500b077da37874
+131	785	7535952232350982	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/4_GPIO/04-GPIO-Drivers/Debug/BrowseInfo/04-GPIO-Drivers.pbw	b524fd0ac485c762

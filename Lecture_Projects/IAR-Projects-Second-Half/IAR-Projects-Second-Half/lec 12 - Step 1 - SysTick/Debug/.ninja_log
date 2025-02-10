@@ -1,0 +1,16 @@
+# ninja log v5
+0	76	7495124638299084	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/startup_ewarm.o	7436390eb1ea9ef
+4	127	7495124638799124	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/main.o	a0ce8108b8062935
+138	190	7495124639469114	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Exe/lec_12 - Step1 - SysTick.out	ff814c7cee8c5db5
+0	98	7543311460720497	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/main.o	6ed5b11690465f90
+0	69	7543311639767697	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/startup_ewarm.o	f614a12bbc0b0c5f
+20	112	7543311640176887	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/main.o	6ed5b11690465f90
+119	176	7543311640849396	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Exe/lec_12 - Step1 - SysTick.out	e53a3ddb23385f72
+0	106	7543311682122104	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/main.o	6ed5b11690465f90
+1	58	7543311692544326	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Exe/lec_12 - Step1 - SysTick.out	e53a3ddb23385f72
+0	109	7543317312377545	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/startup_ewarm.o	72154ed468bfd258
+31	162	7543317312878380	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/main.o	e866362ac26b7e81
+167	236	7543317313688453	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Exe/lec_12 - Step1 - SysTick.out	4025d827e234cf1d
+28	125	7543320363573414	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/startup_ewarm.o	72154ed468bfd258
+0	143	7543320363649213	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Obj/main.o	e866362ac26b7e81
+150	216	7543320364516733	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/Exe/lec_12 - Step1 - SysTick.out	4025d827e234cf1d

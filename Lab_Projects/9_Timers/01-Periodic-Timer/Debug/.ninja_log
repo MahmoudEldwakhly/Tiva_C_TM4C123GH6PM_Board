@@ -1,0 +1,14 @@
+# ninja log v5
+0	139	7560129779084843	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/startup_ewarm.o	677d77818dd4f5a5
+21	187	7560129779549278	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/main.o	5434392eec179237
+30	118	7560130370589490	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/startup_ewarm.o	677d77818dd4f5a5
+6	141	7560130370729467	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/main.o	5434392eec179237
+148	205	7560130371508533	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Exe/01-Periodic-Timer.out	33bc68efef9965b3
+1	132	7560135438909871	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/main.o	5434392eec179237
+138	197	7560135439583238	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Exe/01-Periodic-Timer.out	33bc68efef9965b3
+1	213	7560139612221949	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/main.o	5434392eec179237
+219	281	7560139613011919	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Exe/01-Periodic-Timer.out	33bc68efef9965b3
+1	163	7560148827007843	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/main.o	5434392eec179237
+169	230	7560148827668582	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Exe/01-Periodic-Timer.out	33bc68efef9965b3
+2	125	7560150479086484	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Obj/main.o	5434392eec179237
+132	193	7560150479856355	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/9_Timers/01-Periodic-Timer/Debug/Exe/01-Periodic-Timer.out	33bc68efef9965b3

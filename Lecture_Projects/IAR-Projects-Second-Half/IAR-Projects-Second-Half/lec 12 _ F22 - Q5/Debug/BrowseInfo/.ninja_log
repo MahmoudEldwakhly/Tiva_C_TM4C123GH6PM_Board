@@ -1,0 +1,25 @@
+# ninja log v5
+0	79	7495135340000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.xcl	d72f8b0101475418
+89	116	7495135342935793	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.pbi	f77d0d414bef336a
+122	130	7495135343085474	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbd	1d15db1144ea0f3f
+138	336	7495135344985481	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbw	3052eee032373dd2
+0	74	7495135547839587	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.pbi	f77d0d414bef336a
+81	114	7495135548239223	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbd	1d15db1144ea0f3f
+121	731	7495135554170249	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbw	3052eee032373dd2
+0	84	7495136050000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.xcl	81c9b566300df4d3
+5	100	7495136050000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/startup_ewarm.xcl	83d7f7321fb66b38
+115	166	7495136059837694	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/startup_ewarm.pbi	e1ba7d551f4d9b3c
+96	178	7495136059957708	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.pbi	f77d0d414bef336a
+184	220	7495136060388676	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbd	6d493e8f6e8b049f
+1	663	7495136119039744	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbw	3052eee032373dd2
+11	1550	7542179930000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.xcl	6e7ffad23d30aee1
+1	1568	7542179930000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/startup_ewarm.xcl	d8f23ff67b087c96
+1575	1650	7542179939535867	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/startup_ewarm.pbi	86ff040ec2b8a047
+1556	1668	7542179939745872	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.pbi	c3cd58cce6c2c6ee
+1673	1707	7542179940165838	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbd	6e11bc99c43d533f
+1	88	7543318840000000	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.xcl	96b129d72efa044a
+14	108	7543318840000000	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/startup_ewarm.xcl	bb3a65ccf848b398
+114	177	7543318843835351	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/startup_ewarm.pbi	65d045421be0ebea
+93	186	7543318843918477	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/main.pbi	b887cf4e4ca34268
+189	234	7543318844421757	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbd	874a91e052830a25
+238	1012	7543318851704971	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 _ F22 - Q5/Debug/BrowseInfo/lec_12 _ F22 - Q5.pbw	977b61943fc3282c

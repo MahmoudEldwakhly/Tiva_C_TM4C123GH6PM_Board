@@ -1,0 +1,25 @@
+# ninja log v5
+1	396	7502995340000000	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.xcl	e8c654e97d78a7a2
+409	547	7502995344985055	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+555	589	7502995345415060	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+599	1700	7502995356165330	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b
+1	162	7502995963222084	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+174	188	7502995963482080	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+197	409	7502995965562440	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b
+1	46	7502996321091578	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+55	68	7502996321321932	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+78	319	7502996323381843	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b
+1	80	7502996470000000	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.xcl	1143dc3bcc6086fb
+92	126	7502996476585609	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+135	146	7502996476795965	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+156	370	7502996478898181	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b
+0	191	7502996632316891	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+199	214	7502996632546890	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+224	466	7502996634870283	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b
+1	86	7502997140000000	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.xcl	ec8a360b6ddef85d
+97	137	7502997141087850	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+149	161	7502997141327834	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+173	406	7502997143523709	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b
+0	183	7503000071789582	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/main.pbi	3d2ca5d88bafa3e9
+194	211	7503000072098716	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbd	af341e2c6c2ae60e
+225	550	7503000075143408	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/BrowseInfo/01_Volatile_Optimization.pbw	5197b026a096e23b

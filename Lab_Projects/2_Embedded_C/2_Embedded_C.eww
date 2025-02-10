@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\1_Volatile_Optimization\01_Volatile_Optimization.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\2_LED_Toggle_PC13\02_LED_Toggle_PC13.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\3_LED_Toggle_TivaC\03_LED_Toggle_TivaC.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\4_Compare_with_Raw\04_Compare_with_Raw.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

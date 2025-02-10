@@ -1,0 +1,9 @@
+# ninja log v5
+0	312	7502996461272390	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Obj/main.o	f73be3b197e7a250
+324	571	7502996463906356	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Exe/01_Volatile_Optimization.out	a15c632c2fa797d0
+7	67	7502996628848226	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Obj/main.o	f73be3b197e7a250
+79	128	7502996629478201	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Exe/01_Volatile_Optimization.out	a15c632c2fa797d0
+1	76	7502997094655559	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Obj/main.o	4fe730905a9c31a0
+87	135	7502997095277094	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Exe/01_Volatile_Optimization.out	a15c632c2fa797d0
+2	182	7503000048260489	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Obj/main.o	4fe730905a9c31a0
+192	240	7503000048880479	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/2_Embedded_C/1_Volatile_Optimization/Debug/Exe/01_Volatile_Optimization.out	a15c632c2fa797d0

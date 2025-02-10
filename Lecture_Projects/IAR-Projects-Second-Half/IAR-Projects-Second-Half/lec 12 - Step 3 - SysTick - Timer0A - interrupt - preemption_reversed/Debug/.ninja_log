@@ -1,0 +1,7 @@
+# ninja log v5
+6	106	7495134378127325	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed/Debug/Obj/startup_ewarm.o	d4ec461269f5cfc3
+0	153	7495134378597262	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed/Debug/Obj/main.o	358a8a5e0877ea5b
+166	222	7495134379307239	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed/Debug/Exe/lec_12 - Step3 - SysTick - Timer0A - interrupt - preemption_reversed.out	78f31fd72b539d76
+0	69	7543321767040238	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed/Debug/Obj/startup_ewarm.o	6d34e1b56a45af7d
+17	114	7543321767474393	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed/Debug/Obj/main.o	8f64e0045fda4d53
+122	191	7543321768275062	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 3 - SysTick - Timer0A - interrupt - preemption_reversed/Debug/Exe/lec_12 - Step3 - SysTick - Timer0A - interrupt - preemption_reversed.out	af703c1fc2de2c91

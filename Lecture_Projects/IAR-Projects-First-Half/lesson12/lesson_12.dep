@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>1226990290</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\delay.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\lesson_12.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\delay.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\TivaWare_C_Series-2.2.0.295\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\List\lesson_12.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\delay.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\tm4c_cmsis.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cmSimd.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\..\ti\CMSIS\Include\core_cm4.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 4 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\lesson_12.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 21 14 10 15 16 12 5 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\delay.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3 6 17 8 18 0 1 13 2 20 25 23 22 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\delay.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

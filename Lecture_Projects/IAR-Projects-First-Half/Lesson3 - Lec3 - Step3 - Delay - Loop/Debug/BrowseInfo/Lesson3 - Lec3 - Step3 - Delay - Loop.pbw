@@ -1,0 +1,44 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "1",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\Lesson3 - Lec3 - Step3 - Delay - Loop\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@166@F@main@counter1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter1",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\Lesson3 - Lec3 - Step3 - Delay - Loop\\main.c"
+    },
+    "name": "counter1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@189@F@main@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "18",
+      "line": "8",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\Updated\\Lesson3 - Lec3 - Step3 - Delay - Loop\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  }
+]

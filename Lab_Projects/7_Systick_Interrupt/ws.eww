@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\01-Systick-Interrupt-Led-Control\01-Systick-Interrupt-Led-Control.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\02-Systick-Interrupt-Relay-Control\02-Systick-Interrupt-Relay-Control.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\03-Tivaware-Usage\03-Tivaware-Usage.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

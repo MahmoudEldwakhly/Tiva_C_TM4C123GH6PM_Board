@@ -1,0 +1,5 @@
+# ninja log v5
+0	210	7494833795751734	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/Obj/main.o	ffe9e3b394215804
+5	232	7494833795971714	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/Obj/bsp.o	1881b8b96ff32a95
+10	282	7494833796502572	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/Obj/startup_tm4c.o	97e4cf702b7386b7
+293	347	7494833797192205	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson16/Debug/Exe/lesson_16.out	e1c1ff47a7a7a166

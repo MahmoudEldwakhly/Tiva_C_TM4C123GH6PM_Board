@@ -1,0 +1,23 @@
+# ninja log v5
+1	84	7495030170000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.xcl	ada1d84a52f6043b
+95	125	7495030175960848	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.pbi	5ef4fb6a597d18ce
+133	144	7495030176161131	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbd	dd097466de097c7f
+155	345	7495030178044148	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbw	6fb9feb29e77be16
+1	68	7495030380324157	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.pbi	5ef4fb6a597d18ce
+76	108	7495030380736123	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbd	dd097466de097c7f
+118	741	7495030386764416	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbw	6fb9feb29e77be16
+1	73	7495030992217767	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.pbi	5ef4fb6a597d18ce
+82	114	7495030992647766	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbd	dd097466de097c7f
+125	728	7495030998481572	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbw	6fb9feb29e77be16
+1	87	7495031050000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.xcl	b07e4c7bce8ca715
+100	168	7495031051222606	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.pbi	5ef4fb6a597d18ce
+181	214	7495031051702649	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbd	dd097466de097c7f
+223	808	7495031057401442	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbw	6fb9feb29e77be16
+0	100	7543308260000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.xcl	8b7f564dc4f03b0a
+110	212	7543308268009321	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.pbi	425ed948ebd6a094
+218	262	7543308268532496	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbd	35d2fe662070571e
+268	1115	7543308276571022	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbw	1ca4c0cf31b3c4f1
+0	95	7543315980000000	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.xcl	3b391d9dd96377c7
+100	307	7543315983875464	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/main.pbi	1a68671b13c9e8f4
+312	352	7543315984353134	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbd	4134dd0c269b9f7b
+357	1047	7543315990990248	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 8 - Step 1 - systick - Blinky - Registers/Debug/BrowseInfo/lec8 - Step1 - systick - Blinky - Registers.pbw	e40999459de99136

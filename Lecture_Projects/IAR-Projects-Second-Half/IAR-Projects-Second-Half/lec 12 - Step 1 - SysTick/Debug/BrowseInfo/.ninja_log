@@ -1,0 +1,20 @@
+# ninja log v5
+0	82	7495123400000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.xcl	874939b4f53bcb05
+93	226	7495123405615415	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.pbi	678fe25e92c7a228
+235	244	7495123405805416	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbd	aa0a4b1bf2deb5b9
+251	443	7495123407635048	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbw	ed67f85567704264
+1	72	7495124164616424	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.pbi	678fe25e92c7a228
+79	112	7495124165016787	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbd	aa0a4b1bf2deb5b9
+119	765	7495124171324408	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbw	ed67f85567704264
+0	98	7495124670000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.xcl	ddfcefb2eb4a8d18
+6	114	7495124670000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/startup_ewarm.xcl	b66ef96f5096af38
+129	181	7495124677487237	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/startup_ewarm.pbi	568c703431dc1209
+110	198	7495124677657419	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.pbi	678fe25e92c7a228
+206	244	7495124678117918	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbd	7e1a333721ebe523
+1	690	7495124741503328	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbw	ed67f85567704264
+1	99	7543310840000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.xcl	12bde83db82b43fb
+15	120	7543310840000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/startup_ewarm.xcl	7b06c8cce82948d1
+132	206	7543310842153486	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/startup_ewarm.pbi	f00af262f000d8ec
+108	240	7543310842488800	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/main.pbi	eaa16ca778d729aa
+246	300	7543310843123602	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbd	bb04272ce3b97ab2
+308	1260	7543310852217835	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick/Debug/BrowseInfo/lec_12 - Step1 - SysTick.pbw	1b63d307271024ad

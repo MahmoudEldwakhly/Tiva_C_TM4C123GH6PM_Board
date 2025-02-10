@@ -1,0 +1,23 @@
+# ninja log v5
+0	76	7495121580000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.xcl	73a8a296d344f18e
+86	114	7495121582330271	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.pbi	213f158de378e350
+121	129	7495121582499939	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbd	4738b848eac73f1a
+138	322	7495121584299909	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbw	c09739e7b3fadb2d
+0	171	7495121787637270	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.pbi	213f158de378e350
+179	213	7495121788057260	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbd	4738b848eac73f1a
+221	858	7495121794243545	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbw	c09739e7b3fadb2d
+1	69	7495121919184428	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.pbi	213f158de378e350
+76	109	7495121919594423	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbd	4738b848eac73f1a
+120	729	7495121925534463	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbw	c09739e7b3fadb2d
+1	102	7495122380000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/startup_ewarm.xcl	553cd271399d6498
+13	134	7495122380000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.xcl	c843b26f064994f2
+114	157	7495122381151550	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/startup_ewarm.pbi	96d8d30b174c6993
+148	325	7495122382831695	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.pbi	213f158de378e350
+333	375	7495122383338514	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbd	8112185e706965b5
+1	671	7495122442229913	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbw	c09739e7b3fadb2d
+1	112	7543310190000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/startup_ewarm.xcl	78fa0f3cefde022a
+15	135	7543310190000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.xcl	b36a12d09aaf3153
+121	185	7543310193625077	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/startup_ewarm.pbi	a44a75d35eda2bb6
+145	247	7543310194241441	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/main.pbi	4db9d369bd7656d3
+255	303	7543310194829358	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbd	12ed58c0d9cbb41f
+313	1250	7543310203727419	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 11 - Step 2 - Timer0A - interrupt/Debug/BrowseInfo/lec_11 - Step2 - Timer0A - interrupt.pbw	b604a360b6d02fe3

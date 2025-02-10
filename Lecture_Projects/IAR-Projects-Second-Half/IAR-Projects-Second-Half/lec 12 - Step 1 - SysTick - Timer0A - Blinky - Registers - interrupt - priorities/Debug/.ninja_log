@@ -1,0 +1,7 @@
+# ninja log v5
+5	201	7495127572409911	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities/Debug/Obj/startup_ewarm.o	862d2ea2cde6d70f
+0	229	7495127572639901	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities/Debug/Obj/main.o	23e59b18d50530fe
+244	299	7495127573430618	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities/Debug/Exe/lec_12 - Step1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities.out	92cc14bdde10fdce
+0	104	7543320932563367	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities/Debug/Obj/startup_ewarm.o	fc68cab85055d3dd
+28	170	7543320933188564	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities/Debug/Obj/main.o	cbe50368471afe09
+179	255	7543320934122866	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities/Debug/Exe/lec_12 - Step1 - SysTick - Timer0A - Blinky - Registers - interrupt - priorities.out	726358f82ed9680d

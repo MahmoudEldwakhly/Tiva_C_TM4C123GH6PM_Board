@@ -1,0 +1,13 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armPROC.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armSIM2.dll" 
+
+"E:\Engineer\TA Work\04-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\2_Embedded_C\2_LED_Toggle_PC13\Debug\Exe\02_LED_Toggle_PC13.out" 
+
+--plugin="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files\IAR Systems\Embedded Workbench 9.0\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+
+
+

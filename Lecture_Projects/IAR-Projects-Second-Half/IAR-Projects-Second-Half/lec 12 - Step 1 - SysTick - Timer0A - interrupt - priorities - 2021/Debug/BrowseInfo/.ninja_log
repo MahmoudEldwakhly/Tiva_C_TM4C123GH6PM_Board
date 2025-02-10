@@ -1,0 +1,17 @@
+# ninja log v5
+1	83	7495129140000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/main.xcl	486d654a512c85d1
+94	122	7495129148239949	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/main.pbi	ecc5b19d9675fb19
+132	141	7495129148429979	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.pbd	7ec8df53eab8ebb7
+151	345	7495129150330545	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.pbw	2075630a732d8192
+0	100	7495129950000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/main.xcl	28ac27ac40d1b761
+7	117	7495129950000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/startup_ewarm.xcl	661bc8ca132e06c7
+134	179	7495129958614552	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/startup_ewarm.pbi	9e51a64d310e5dfa
+112	202	7495129958834495	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/main.pbi	ecc5b19d9675fb19
+210	250	7495129959334867	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.pbd	b415b566a5094cc7
+263	981	7495129966384469	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.pbw	2075630a732d8192
+1	107	7543321110000000	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/main.xcl	b1e70363c7af162d
+17	125	7543321110000000	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/startup_ewarm.xcl	ec0895828a9160b9
+133	200	7543321112675680	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/startup_ewarm.pbi	7a613760bcd95318
+113	205	7543321112726341	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/main.pbi	66cf5d3ec830b5af
+210	253	7543321113241754	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.pbd	34aa4a1fd9ad8852
+261	1017	7543321120283284	C:/Users/ahmed/Desktop/IAR-Projects-Second-Half/lec 12 - Step 1 - SysTick - Timer0A - interrupt - priorities - 2021/Debug/BrowseInfo/lec_12 - Step1 - SysTick - Timer0A - interrupt - priorities - 2021.pbw	20cb05a2e4a872fb

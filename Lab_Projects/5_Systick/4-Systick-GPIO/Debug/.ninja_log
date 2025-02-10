@@ -1,0 +1,21 @@
+# ninja log v5
+23	192	7542302643537855	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/SysTick.o	a874d09ddfa39815
+0	218	7542302643723072	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/main.o	185144f9391ffd16
+48	246	7542302644048832	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	56218573dfa59c25
+254	334	7542302645039212	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	3d603478f48524f1
+29	166	7542303265827114	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/SysTick.o	11e85805ad89c06f
+51	186	7542303265963045	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/main.o	c6f17274d99d8288
+0	195	7542303266056123	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	9a97f277f403a868
+203	273	7542303266968121	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e
+1	91	7542304615779193	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/main.o	c6f17274d99d8288
+97	163	7542304616557098	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e
+2	139	7542309121399580	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	9a97f277f403a868
+146	211	7542309122206895	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e
+1	157	7542309292601478	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	9a97f277f403a868
+164	225	7542309293369076	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e
+1	159	7542309752185906	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	9a97f277f403a868
+166	233	7542309753022804	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e
+1	162	7542310022704309	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	9a97f277f403a868
+170	231	7542310023567524	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e
+1	142	7542311370921200	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Obj/DIO.o	9a97f277f403a868
+150	220	7542311371772504	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/4-Systick-GPIO/Debug/Exe/4-Systick-GPIO.out	53185d87d76c509e

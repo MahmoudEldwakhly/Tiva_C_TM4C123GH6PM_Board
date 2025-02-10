@@ -1,0 +1,49 @@
+# ninja log v5
+1	79	7495089230000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	a97b6f6848381b8b
+89	116	7495089231279139	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	3209cc2844118d6d
+123	131	7495089231439139	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	60c791db8f0686a9
+138	336	7495089233349141	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	3368d14300e446f7
+1	91	7495090320000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.xcl	d82dd8d040fdf659
+6	105	7495090320000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	a8e0a0922edf4d5b
+102	137	7495090324104910	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	1839989f1f8d943b
+119	192	7495090324644895	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	3209cc2844118d6d
+199	233	7495090325064897	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	aa3756ebe98024c4
+243	861	7495090331094889	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	3368d14300e446f7
+0	35	7495090735611117	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	60c791db8f0686a9
+44	655	7495090741522154	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	3368d14300e446f7
+1	106	7495093890000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	cdbc0be0c5e2093d
+6	121	7495093890000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.xcl	a001ad09a5f8dd1
+135	174	7495093894321327	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	1839989f1f8d943b
+118	194	7495093894521546	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	3209cc2844118d6d
+200	238	7495093894972487	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	aa3756ebe98024c4
+247	880	7495093901134235	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	3368d14300e446f7
+9	71	7542179990000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.xcl	bc92a96510983eb5
+1	87	7542179990000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	4e63d11d107a160
+77	116	7542179998605171	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	52d90695f04f4bfc
+93	165	7542179999080264	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	33f9bf055fc1d8ef
+170	207	7542179999510305	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	2bd7d46f10c68294
+213	944	7542180006667681	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	300b164406632111
+1	100	7543235400000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	f3a94d262109403f
+14	118	7543235400000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.xcl	7dc3763752be7385
+126	189	7543235406557769	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	52d90695f04f4bfc
+107	313	7543235407803167	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	33f9bf055fc1d8ef
+318	361	7543235408310174	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	2bd7d46f10c68294
+369	1173	7543235416009332	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	300b164406632111
+0	94	7543236630000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	2b9bb39675eb4390
+15	109	7543236630000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.xcl	95406a1a27ae8dab
+116	164	7543236631872331	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	52d90695f04f4bfc
+101	185	7543236632079423	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	33f9bf055fc1d8ef
+189	240	7543236632663400	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	2bd7d46f10c68294
+247	1098	7543236640781844	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	300b164406632111
+0	53	7543237096846496	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	52d90695f04f4bfc
+59	108	7543237097411603	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	2bd7d46f10c68294
+116	920	7543237105049510	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	300b164406632111
+1	90	7543237258181926	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	33f9bf055fc1d8ef
+96	140	7543237258710602	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	2bd7d46f10c68294
+147	893	7543237266030570	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	300b164406632111
+1	95	7543301240000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.xcl	7dc3763752be7385
+13	113	7543301240000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.xcl	f3a94d262109403f
+103	156	7543301247192249	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/startup_ewarm.pbi	52d90695f04f4bfc
+123	212	7543301247753437	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/main.pbi	33f9bf055fc1d8ef
+221	261	7543301248275363	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbd	2bd7d46f10c68294
+270	1081	7543301255902047	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lecture_Projects/IAR-Projects-Second-Half/lec 9 _ systick_interrupt/Debug/BrowseInfo/lec9 _ systick_interrupt.pbw	300b164406632111

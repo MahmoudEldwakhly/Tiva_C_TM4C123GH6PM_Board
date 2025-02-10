@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\1-Systick-Initialization\1-Systick-Initialization.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\2-Systick-Task1\2-Systick-Task1.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\3-Systick-Task2\3-Systick-Task2.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\4-Systick-GPIO\4-Systick-GPIO.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

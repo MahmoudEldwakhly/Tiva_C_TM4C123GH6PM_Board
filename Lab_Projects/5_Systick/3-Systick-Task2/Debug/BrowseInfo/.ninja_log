@@ -1,0 +1,27 @@
+# ninja log v5
+0	86	7542292760000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.xcl	af5e3eacecb9f307
+93	134	7542292768868357	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.pbi	6d606b73634c0195
+139	168	7542292769204009	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	84ce5647ff34c507
+172	522	7542292772477632	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88
+1	109	7542296280224311	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.pbi	6d606b73634c0195
+115	156	7542296280716458	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	84ce5647ff34c507
+162	928	7542296288000881	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88
+1	98	7542296542113881	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.pbi	6d606b73634c0195
+103	145	7542296542614406	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	84ce5647ff34c507
+150	932	7542296550176449	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88
+1	90	7542296600000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/SysTick.xcl	2628a6207f8d6e9a
+95	173	7542296603089110	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/SysTick.pbi	44d9b0c112f3dd08
+177	226	7542296603631223	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	2522b491f08d8fe9
+232	929	7542296610163553	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88
+0	70	7542296813561641	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.pbi	6d606b73634c0195
+75	125	7542296814115293	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	2522b491f08d8fe9
+130	749	7542296819946889	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88
+0	83	7542296871787343	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.pbi	6d606b73634c0195
+89	166	7542296872414931	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	2522b491f08d8fe9
+172	986	7542296880387206	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88
+0	93	7542296930000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/SysTick.xcl	30a135597cd2abcf
+11	109	7542296930000000	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.xcl	fad2f19591f0be00
+99	193	7542296933422271	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/SysTick.pbi	44d9b0c112f3dd08
+116	208	7542296933578648	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/main.pbi	6d606b73634c0195
+212	279	7542296934313374	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbd	2522b491f08d8fe9
+285	966	7542296940659788	D:/Work/TA Work/03-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/5_Systick/3-Systick-Task2/Debug/BrowseInfo/3-Systick-Task2.pbw	81c7091e52da0a88

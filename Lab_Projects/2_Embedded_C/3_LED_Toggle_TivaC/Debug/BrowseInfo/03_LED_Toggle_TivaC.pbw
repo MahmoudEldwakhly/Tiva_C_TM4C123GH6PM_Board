@@ -1,0 +1,128 @@
+[
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@58@F@delay@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "18",
+      "line": "4",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "8",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:tm4c123gh6pm.h@32@macro@TM4C123GH6PM_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TM4C123GH6PM_H",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\tm4c123gh6pm.h"
+    },
+    "name": "TM4C123GH6PM_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tm4c123gh6pm.h@58@macro@SYSCTL_RCGCGPIO_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSCTL_RCGCGPIO_R",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\tm4c123gh6pm.h"
+    },
+    "name": "SYSCTL_RCGCGPIO_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tm4c123gh6pm.h@133@macro@GPIO_PORTF_DATA_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DATA_R",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\tm4c123gh6pm.h"
+    },
+    "name": "GPIO_PORTF_DATA_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tm4c123gh6pm.h@208@macro@GPIO_PORTF_DIR_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DIR_R",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\tm4c123gh6pm.h"
+    },
+    "name": "GPIO_PORTF_DIR_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tm4c123gh6pm.h@283@macro@GPIO_PORTF_DEN_R",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_PORTF_DEN_R",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\tm4c123gh6pm.h"
+    },
+    "name": "GPIO_PORTF_DEN_R",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:tm4c123gh6pm.h@405@macro@RED_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED_LED",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "E:\\Engineer\\TA Work\\04-Fall-24\\CSE211 Introduction to Embedded\\2_Hands-on_Projects\\Lab_Projects\\2_Embedded_C\\3_LED_Toggle_TivaC\\tm4c123gh6pm.h"
+    },
+    "name": "RED_LED",
+    "origin": "user_include",
+    "scope": null
+  }
+]

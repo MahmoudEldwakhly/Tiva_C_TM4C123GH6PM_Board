@@ -1,0 +1,44 @@
+[
+  {
+    "ID": "c:@counter1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter1",
+    "location": {
+      "column": "5",
+      "line": "1",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\IAR-Projects-First-Half\\Lesson3 - Lec2 - Step2 - Global\\main.c"
+    },
+    "name": "counter1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "2",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\IAR-Projects-First-Half\\Lesson3 - Lec2 - Step2 - Global\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@35@F@main@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "7",
+      "line": "3",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\IAR-Projects-First-Half\\Lesson3 - Lec2 - Step2 - Global\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  }
+]

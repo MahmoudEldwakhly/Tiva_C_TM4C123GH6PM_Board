@@ -1,0 +1,16 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "1",
+      "path": "C:\\Users\\ahmed\\OneDrive\\Desktop\\Embedded\\IAR-Projects-First-Half\\Lesson3 - Lec3 - Step2 - Timing Issue\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

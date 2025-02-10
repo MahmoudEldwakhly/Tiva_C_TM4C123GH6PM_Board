@@ -1,0 +1,13 @@
+# ninja log v5
+1	80	7494846820000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/main.xcl	a61bee2e9f87dc17
+89	117	7494846828416399	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/main.pbi	1cde2313af75c5ed
+123	131	7494846828566049	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/lesson_18.pbd	74e64bc2a3a6896d
+137	337	7494846830466330	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/lesson_18.pbw	2a0371cd70d4e76c
+0	119	7494848830000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/bsp.xcl	697d8c20a8ae7515
+17	135	7494848830000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/startup_tm4c.xcl	58bcee00ed2bcf2e
+14	152	7494848830000000	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/main.xcl	dec47a4517f15ddf
+132	233	7494848832420307	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/bsp.pbi	ada94f747cd2f7ef
+149	248	7494848832576507	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/startup_tm4c.pbi	b6a63bf89760bdf2
+165	268	7494848832787403	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/main.pbi	1cde2313af75c5ed
+274	325	7494848833359420	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/lesson_18.pbd	9d0bb729d7844002
+333	776	7494848837698486	C:/Users/ahmed/OneDrive/Desktop/Embedded/IAR-Projects-First-Half/lesson18/Debug/BrowseInfo/lesson_18.pbw	2a0371cd70d4e76c

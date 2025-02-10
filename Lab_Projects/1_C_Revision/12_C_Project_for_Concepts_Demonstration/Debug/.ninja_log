@@ -1,0 +1,12 @@
+# ninja log v5
+7	297	7501652941029609	C:/Users/ahmed/OneDrive/Desktop/Debug/Obj/utils.o	511a673a8b4aaf57
+0	306	7501652941029609	C:/Users/ahmed/OneDrive/Desktop/Debug/Obj/main.o	220de1e90fded9a5
+313	573	7501652943792788	C:/Users/ahmed/OneDrive/Desktop/Debug/Exe/test.out	3fbdc9789a91033d
+3	396	7501760142968034	C:/Users/ahmed/OneDrive/Desktop/Debug/Obj/main.o	220de1e90fded9a5
+403	605	7501760145074619	C:/Users/ahmed/OneDrive/Desktop/Debug/Exe/test.out	3fbdc9789a91033d
+4	393	7502622289291365	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/1_C_Revision/12_C_Project_for_Concepts_Demonstration/Debug/Obj/utils.o	74d85d219b45ee39
+81	418	7502622289381382	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/1_C_Revision/12_C_Project_for_Concepts_Demonstration/Debug/Obj/main.o	35662345274570c9
+432	647	7502622291813632	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/1_C_Revision/12_C_Project_for_Concepts_Demonstration/Debug/Exe/test.out	17385a9a26b8e7d2
+1	233	7502628557711905	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/1_C_Revision/12_C_Project_for_Concepts_Demonstration/Debug/Obj/utils.o	c5bd916b2f3c5a61
+8	257	7502628557901914	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/1_C_Revision/12_C_Project_for_Concepts_Demonstration/Debug/Obj/main.o	750a121a12cee53a
+275	383	7502628559151941	E:/Ahmed/Teaching/04-Fall-24/CSE211 Introduction to Embedded/2_Hands-on_Projects/Lab_Projects/1_C_Revision/12_C_Project_for_Concepts_Demonstration/Debug/Exe/test.out	7406a9c4c903eeda

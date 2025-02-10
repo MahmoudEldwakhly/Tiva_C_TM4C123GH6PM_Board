@@ -1,0 +1,176 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  16/Dec/2024  03:17:27
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Exe\01-Periodic-Timer.out
+#    Map file     =
+#        D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\List\01-Periodic-Timer.map
+#    Command line =
+#        -f "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Exe\01-Periodic-Timer.out.rsp"
+#        ("D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Obj\main.o"
+#        "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Obj\startup_ewarm.o"
+#        --no_out_extension -o "D:\Work\TA Work\03-Fall-24\CSE211 Introduction
+#        to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Exe\01-Periodic-Timer.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "D:\Work\TA Work\03-Fall-24\CSE211 Introduction to
+#        Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\List\01-Periodic-Timer.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C123GH6.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
+
+  Section  Kind         Address   Size  Object
+  -------  ----         -------   ----  ------
+"A0":                            0x26c
+  .intvec  const            0x0  0x26c  startup_ewarm.o [1]
+                        - 0x26c  0x26c
+
+"P1":                            0x180
+  .text    ro code        0x26c   0xd8  main.o [1]
+  .text    ro code        0x344   0x22  fpinit_M.o [3]
+  .text    ro code        0x368   0x1e  startup_ewarm.o [1]
+  .text    ro code        0x388   0x1c  cstartup_M.o [4]
+  .text    ro code        0x3a4   0x1e  cmain.o [4]
+  .text    ro code        0x3c2    0x4  low_level_init.o [2]
+  .text    ro code        0x3c6    0x4  exit.o [2]
+  .text    ro code        0x3cc    0xa  cexit.o [4]
+  .text    ro code        0x3d8   0x14  exit.o [5]
+                        - 0x3ec  0x180
+
+"P2":                            0x200
+  .noinit  uninit   0x2000'0000  0x200  startup_ewarm.o [1]
+                  - 0x2000'0200  0x200
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x3ec     0x3'ffff  0x3'fc14
+  0x2000'0200  0x2000'7fff    0x7e00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+D:\Work\TA Work\03-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Obj: [1]
+    main.o                216
+    startup_ewarm.o        30      620      512
+    -------------------------------------------
+    Total:                246      620      512
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    -------------------------------------------
+    Total:                 68
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    8
+-----------------------------------------------
+    Grand Total:          384      620      512
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address   Size  Type      Object
+-----                     -------   ----  ----      ------
+?main                       0x3a5         Code  Gb  cmain.o [4]
+FaultISR                    0x383    0x2  Code  Lc  startup_ewarm.o [1]
+IntDefaultHandler           0x385    0x2  Code  Lc  startup_ewarm.o [1]
+NmiSR                       0x381    0x2  Code  Lc  startup_ewarm.o [1]
+Region$$Table$$Base           0x0          --   Gb  - Linker created -
+Region$$Table$$Limit          0x0          --   Gb  - Linker created -
+ResetISR                    0x369   0x14  Code  Gb  startup_ewarm.o [1]
+Timer0A_Handler             0x26d   0x14  Code  Gb  main.o [1]
+__cmain                     0x3a5         Code  Gb  cmain.o [4]
+__exit                      0x3d9   0x14  Code  Gb  exit.o [5]
+__iar_init_vfp              0x345         Code  Gb  fpinit_M.o [3]
+__iar_program_start         0x389         Code  Gb  cstartup_M.o [4]
+__low_level_init            0x3c3    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                0x0  0x26c  Data  Gb  startup_ewarm.o [1]
+_call_main                  0x3b1         Code  Gb  cmain.o [4]
+_exit                       0x3cd         Code  Gb  cexit.o [4]
+exit                        0x3c7    0x4  Code  Gb  exit.o [2]
+main                        0x33d    0x8  Code  Gb  main.o [1]
+pui32Stack            0x2000'0000  0x200  Data  Lc  startup_ewarm.o [1]
+setup                       0x281   0x80  Code  Gb  main.o [1]
+
+
+[1] = D:\Work\TA Work\03-Fall-24\CSE211 Introduction to Embedded\2_Hands-on_Projects\Lab_Projects\9_Timers\01-Periodic-Timer\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  384 bytes of readonly  code memory
+  620 bytes of readonly  data memory
+  512 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
