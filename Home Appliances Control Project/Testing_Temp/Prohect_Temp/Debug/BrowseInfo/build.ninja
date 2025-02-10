@@ -1,0 +1,61 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\main.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\main.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\SysTick.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\SysTick.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Testing.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Testing.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\main.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\SysTick.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Testing.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Project_temp.pbw : MAKEBROWSE D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Project_temp.pbd
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Project_temp.pbd" -output "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Project_temp.pbw"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Project_temp.pbd : PDBLINK D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.pbi |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.pbi $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.pbi
+  flags = -M "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Project_temp.pbd" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\main.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\SysTick.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Testing_Temp\Prohect_Temp\Debug\BrowseInfo\Testing.pbi"
+

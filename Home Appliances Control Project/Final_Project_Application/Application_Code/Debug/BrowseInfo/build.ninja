@@ -1,0 +1,100 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Buzzer.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Buzzer.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Limit_Switch.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Limit_Switch.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\main.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\main.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Relay.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Relay.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Temp_Sensor.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Temp_Sensor.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.xcl : COMPILER_XCL 
+  xclcommand = -source_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\UART.c" -xcl_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.xcl" -macro_file "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.tmp" -icc_path "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\bin\iccarm.exe"
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\UART.c" -o "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M3 -e --fpu=None --dlib_config "C$:\Program$ Files\IAR$ Systems\Embedded$ Workbench$ 9.0\arm\inc\c\DLib_Config_Normal.h" -I C$:\ti\TivaWare_C_Series-2.2.0.295\ -Ol --predef_macros "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.tmp"
+  rspfile_name = D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.xcl.rsp
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Buzzer.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Limit_Switch.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\main.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Relay.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Temp_Sensor.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.pbi : INDEXER D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.xcl |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\UART.c
+  flags = "-out=D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.pbi" -f "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.xcl"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code.pbw : MAKEBROWSE D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code.pbd
+  flags = "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code.pbd" -output "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code.pbw"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part0.pbi : PDBLINK D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.pbi |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.pbi
+  flags = -M "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part0.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Buzzer.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Limit_Switch.pbi"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part1.pbi : PDBLINK D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.pbi |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.pbi
+  flags = -M "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part1.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\main.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Relay.pbi"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part2.pbi : PDBLINK D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.pbi |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.pbi
+  flags = -M "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part2.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Temp_Sensor.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\UART.pbi"
+
+build D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code.pbd : PDBLINK D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part0.pbi |  $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part1.pbi $
+D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part2.pbi
+  flags = -M "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code.pbd" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part0.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part1.pbi" "D$:\Embedded\Introduction$ to$ Embedded$ course$ fall$ 2024\Project\Final_Project_Application\Application_Code\Debug\BrowseInfo\Application_Code_part2.pbi"
+
